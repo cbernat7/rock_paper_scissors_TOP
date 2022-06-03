@@ -1,0 +1,42 @@
+
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  justify-content: space-between;
+
+  
+}
+.buttonContainer {
+  display: flex;
+  padding: 10px;
+  justify-items:center;
+  gap: 20px;
+  
+}
+
+.resultsContainer {
+  color: darkblue;
+  background-color: lightcyan;
+  border: 2px solid black;
+  display: flex;
+
+
+  gap: 30px;
+  padding: 15px;
+  position: relative;
+  align-items: center;
+
+
+}
+
+.resultsChild {
+  width: 50%;
+  flex-wrap: wrap;
+
+}
+.textResult {
+  padding: 15px;
+}
